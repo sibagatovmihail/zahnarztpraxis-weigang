@@ -4,9 +4,13 @@ Designentwurf (Spec-Pitch) für eine neue Website der Zahnarztpraxis Cirsten und
 mit Dr. Johannes Weigang, Große Grüne Straße 5, 17192 Waren (Müritz). Die Praxis hat bisher keine
 eigene Website. Nur zur Ansicht: `index.html` im Browser öffnen (statisch, kein Build).
 
+**© 2026 Mykhailo Sibahatov. Alle Rechte vorbehalten.** Der Entwurf dient ausschließlich zur Ansicht.
+Kopieren, Veröffentlichen oder Weiterverwenden, ganz oder in Teilen (auch das Logo), ist nur mit
+schriftlicher Vereinbarung erlaubt. Details siehe [LICENSE](LICENSE).
+
 ## Inhalt des Entwurfs
 
-- **Logo (neu):** ein Zahn, der in der Müritz steht. Die Wasserlinie in Bojen-Orange, die Wurzeln unter Wasser heller.
+- **Logo (neu):** ein Zahn, der in der Müritz steht. Die Wasserlinie in Orange, die Wurzeln unter Wasser heller.
   Beim ersten Besuch zeichnet es sich als Preloader selbst.
 - **Hero:** „Gut aufgehoben. Mitten in Waren.“ Das Foto hat eine Wasserlinie als Unterkante, dazu die Live-Anzeige
   „geöffnet / geschlossen“ (Zeitzone Europe/Berlin) und die Google-Wertung
@@ -40,4 +44,4 @@ Sie werden durch Fotos der Praxis ersetzt. Fotografen: Caroline LM (beratung), D
 Atikah Akhtar (behandlungsraum), Navy Medicine (kinder), Diana Polekhina (aligner), Amy Vosters (wartebereich),
 Vitaly Gariev (schlaf), Jonathan Borba (implantat), Harold Hisona (zahnmodell), Benyamin Bohlouli (praxis).
 
-Schriften: Bricolage Grotesque und Figtree, lokal eingebunden, beide unter der SIL Open Font License.
+Schrift: Jost, lokal eingebunden, unter der SIL Open Font License.

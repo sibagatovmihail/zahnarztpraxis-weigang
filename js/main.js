@@ -173,6 +173,23 @@
     window.addEventListener('load', sweep);
   }
 
+  /* ---------- the Notfall course plays when it is on screen, and again on return ---------- */
+  var course = document.querySelector('[data-course]');
+  if (course) {
+    if (reduceMotion || !('IntersectionObserver' in window)) {
+      course.classList.add('is-play');
+    } else {
+      /* start once the top of the course is well inside the screen … */
+      new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) course.classList.add('is-play');
+      }, { rootMargin: '0px 0px -30% 0px' }).observe(course);
+      /* … and reset when it has left the screen completely, so it plays again */
+      new IntersectionObserver(function (entries) {
+        if (!entries[0].isIntersecting) course.classList.remove('is-play');
+      }).observe(course);
+    }
+  }
+
   /* ---------- opening hours: live status in Waren's time zone ---------- */
   var HOURS = { 1: [7.5, 18], 2: [7.5, 18], 3: [7.5, 18], 4: [7.5, 19], 5: [7.5, 12] };
   var DAY_NAMES = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
